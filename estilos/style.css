@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5F2C82;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#tela {
+    background-color: #fff;
+    width: 270px;
+    border-radius: 25px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.566);
+    transition: 0.5s;
+}
+
+div#imagem {
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+    background-image: url(	https://professorguanabara.github.io/projeto-login/imagens/metal.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+div#conteudo {
+    padding: 10px 10px 30px 10px;
+}
+
+#conteudo-titulo {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 5px;
+}
+
+#conteudo-paragrafo {
+    text-align: justify;
+    font-size: 13.5px;
+}
+
+div.formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    padding: 1px;
+    background-color: #5F2C82;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0px;
+}
+
+div.formulario > input:focus-within {
+    background-color: #fff;
+}
+
+div.formulario > span {
+    margin: 2px;
+    color: #fff;
+    font-size: 2em;
+}
+
+form label {
+    display: none;
+}
+
+input.caixa {
+    margin-right: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #94CFCD;
+    border: none;
+    width: 90%;
+}
+
+div.botao {
+   margin-top: 5px;
+}
+
+input#botao-entrar {
+    padding: 11px;
+    width: 100%;
+    background-color: #94CFCD;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+}
+
+input#botao-entrar:hover {
+    background-color: #2D6462;
+}
+
+a#botao-senha {
+    display: block;
+    padding: 11px;
+    background-color: #fff;
+    border: 2px solid #71dcd7;
+    border-radius: 7px;
+    font-size: 1em;
+    color: #2D6462;
+    text-decoration: none;
+    text-align: center;
+}
+
+a#botao-senha:hover {
+    background-color: #6CD3CF;
+}
+
+a#botao-senha > span {
+    font-size: 0.8em;
+    color: #94CFCD;
+}
+
+
+
+
+
+
